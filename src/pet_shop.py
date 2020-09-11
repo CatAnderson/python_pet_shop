@@ -20,18 +20,34 @@ def get_stock_count(pet_shop):
     return len(pet_shop["pets"])
 
 # def get_pets_by_breed(pet_shop, breed_type):
-#     found_breeds = []
+#     found_breeds = 0
 #     for breed_type in pet_shop:
 #         if breed_type == True:
 #             found_breeds.append(breed_type)
 #     return found_breeds
 
-def find_pet_by_name(pet_shop, pet_name):
-    return pet_shop["pets"][3]
+# def find_pet_by_name(pet_shop, pet_name):
+#     if pet_name == pet_name:
+#         return pet_shop["pets"][]
+#     else:
+#         return None
 
-# def get_uncompleted_tasks(tasklist):
-#     uncompleted_tasks = []
-#     for task in tasklist:
-#         if task["completed"] == False:
-#             uncompleted_tasks.append(task)
-#     return uncompleted_tasks
+# def find_pet_by_name(pet_shop, pet_name):
+#     for name in pet_shop:
+#         if name == False:
+#             return None
+
+# def remove_pet_by_name(pet_shop, pet_name):
+
+def get_customer_cash(customers):
+    return customers["cash"]
+
+# def remove_customer_cash(name, money):
+
+def get_customer_pet_count(customers):
+    return len(customers["pets"])
+
+def add_pet_to_customer(customer, new_pet):
+   pets from new_pets
+    return get_customer_pet_count
+

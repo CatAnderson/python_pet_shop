@@ -72,7 +72,8 @@ def get_customer_cash(customers):
 
 
 # test 15
-# def remove_customer_cash(name, money):
+def remove_customer_cash(customer, money):
+    customer["cash"] -= money 
 
 
 # test 16
@@ -81,7 +82,10 @@ def get_customer_pet_count(customers):
 
 
 # # test 17
-# def add_pet_to_customer(customer, new_pet):
+def add_pet_to_customer(customers, new_pet):
+    customers["pets"].append(new_pet)
+
+
 # #    add pets from new_pet dict 
 # #    to customers dict in the pets key
 #     return get_customer_pet_count

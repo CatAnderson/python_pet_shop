@@ -32,7 +32,7 @@ def get_stock_count(pet_shop):
 
 # test 8 & 9
 # def get_pets_by_breed(pet_shop, breed_type):
-#     found_breeds = 0
+#     found_breeds = []
 #     for breed_type in pet_shop:
 #         if breed_type == True:
 #             found_breeds.append(breed_type)

@@ -38,6 +38,10 @@ def get_stock_count(pet_shop):
 #             found_breeds.append(breed_type)
 #     return found_breeds
 
+# needs a loop which goes through the list of "pets", 
+# finds all the pets with the breed_type that is 
+# in the argument and store that in a list to be invoked.
+
 
 # test 10 & 11
 # def find_pet_by_name(pet_shop, pet_name):
@@ -46,15 +50,16 @@ def get_stock_count(pet_shop):
 #     else:
 #         return None
 
-
-# def find_pet_by_name(pet_shop, pet_name):
-#     for name in pet_shop:
-#         if name == False:
-#             return None
+# needs a if statement which goes through the list of "pets", 
+# to find the pets_name that is in the argument and 
+# if it finds it then return it....else return None
 
 
 # test 12
 # def remove_pet_by_name(pet_shop, pet_name):
+# delete the "name" from "pets" list - .pop
+# then use the function above (find_pet_by_name) 
+# to find name - wont be able to find name as was deleted
 
 
 # test 13
@@ -75,9 +80,9 @@ def get_customer_pet_count(customers):
     return len(customers["pets"])
 
 
-# test 17
-def add_pet_to_customer(customer, new_pet):
-#    add pets from new_pet dict 
-#    to customers dict in the pets key
-    return get_customer_pet_count
-
+# # test 17
+# def add_pet_to_customer(customer, new_pet):
+# #    add pets from new_pet dict 
+# #    to customers dict in the pets key
+#     return get_customer_pet_count
+ 

@@ -63,7 +63,8 @@ def get_stock_count(pet_shop):
 
 
 # test 13
-#  def add_pet_to_stock(pet_shop, new_pet)
+def add_pet_to_stock(pet_shop, new_pet):
+    pet_shop["pets"].append(new_pet)
 
 
 # test 14
@@ -84,9 +85,4 @@ def get_customer_pet_count(customers):
 # # test 17
 def add_pet_to_customer(customers, new_pet):
     customers["pets"].append(new_pet)
-
-
-# #    add pets from new_pet dict 
-# #    to customers dict in the pets key
-#     return get_customer_pet_count
  

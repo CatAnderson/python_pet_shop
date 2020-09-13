@@ -44,9 +44,9 @@ def get_pets_by_breed(pet_shop, breed_type):
 
 
 # test 10 & 11
-def find_pet_by_name(petshop, pet_name):
-    for name in petshop["pets"]:
-        if name["name"] == "Arthur":
+def find_pet_by_name(pet_shop, pet_name):
+    for name in pet_shop["pets"]:
+        if name["name"] == pet_name:
             return name
 
 # needs a if statement which goes through the list of "pets", 

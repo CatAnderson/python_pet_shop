@@ -131,11 +131,11 @@ class TestPetShop(unittest.TestCase):
         pet = find_pet_by_name(self.cc_pet_shop, "Fred")
         self.assertIsNone(pet)
 
-    # @unittest.skip("delete this line to run the test")
-    # def test_remove_pet_by_name(self):
-    #     remove_pet_by_name(self.cc_pet_shop, "Arthur")
-    #     pet = find_pet_by_name(self.cc_pet_shop,"Arthur")
-    #     self.assertIsNone(pet)
+   
+    def test_remove_pet_by_name(self):
+        remove_pet_by_name(self.cc_pet_shop, "Arthur")
+        pet = find_pet_by_name(self.cc_pet_shop,"Arthur")
+        self.assertIsNone(pet)
 
 
     def test_add_pet_to_stock(self):

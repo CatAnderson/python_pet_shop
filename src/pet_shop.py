@@ -89,4 +89,7 @@ def get_customer_pet_count(customers):
 # # test 17
 def add_pet_to_customer(customers, new_pet):
     customers["pets"].append(new_pet)
+
+# # extension 1
+# def sell_pet_to_customer(pet_shop, pet, customer)
  

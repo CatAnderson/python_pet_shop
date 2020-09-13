@@ -31,16 +31,16 @@ def get_stock_count(pet_shop):
 
 
 # test 8 & 9
-# def get_pets_by_breed(pet_shop, breed_type):
-#     found_breeds = []
-#     for breed_type in pet_shop:
-#         if breed_type == True:
-#             found_breeds.append(breed_type)
-#     return found_breeds
+def get_pets_by_breed(pet_shop, breed_type):
+    found_breeds = []
+    for pet in pet_shop["pets"]:
+        if pet["breed"] == breed_type:
+            found_breeds.append(breed_type)
+    return found_breeds
 
-# needs a loop which goes through the list of "pets", 
-# finds all the pets with the breed_type that is 
-# in the argument and store that in a list to be invoked.
+# needs a loop which goes through pet_shop dict to 
+# the list of "pets", finds all the pets with the breed_type 
+# that is in the argument and store that in a list to be invoked.
 
 
 # test 10 & 11
